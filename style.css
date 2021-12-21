@@ -16,9 +16,7 @@ body {
 
 
 
-.right_btn a {
-    text-decoration: none;
-}
+
 
 
 
@@ -58,6 +56,9 @@ header {
 .btn-signUp a{
     color: #fff;
 }
+.right_btn a {
+    text-decoration: none;
+}
 .slider {
     display: flex;
     background: #000;
@@ -71,8 +72,8 @@ header {
     margin: 5% 0% 0% 0%;
 }
 .slider_left select {
-    width: 243px;
-    height: 14%;
+    width: 39%;
+    height: 15%;
 }
 .slider_left button{
     height: 16%;
@@ -211,6 +212,7 @@ footer {
 }
 .les_liste_footer {
     display: flex;
+    justify-content: end;
     width: 100%;
     padding: 23px;
 }
@@ -307,12 +309,12 @@ footer {
   
     ul.slider2_ul {
         margin: 0;
-        width: 154%;
+        width: 98%;
         padding-left: 13px;
         font-size: 6px;
     }
     ul.slider2_ul img {
-        width: 11px;
+        width: 16px;
     }
     
     ul.slider2_ul li {
@@ -404,7 +406,7 @@ footer {
     .les_liste_footer {
         width: 100%;
         font-size: 14px;
-        
+        justify-content: center;
     }
     
     .images_footer p {
@@ -414,7 +416,7 @@ footer {
     
     
 }
-@media (max-width: 576px) { 
+@media (max-width: 600px) { 
 
     .slider_left button {
         margin-top: 12px;
