@@ -11,43 +11,30 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, #FB7B30 0%,#A831A5 100%);
 }
-
 main {
     margin: 6% 10%;
 }
-
 .center {
     background: white;
     border-radius: 40px;
     margin: 1% 0;
     padding: 2% 5%;
 }
-
-
 .signe_up {
     text-align: center;
 }
-
-/*.center{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 73%;
-    height: 64%;
-    background: white;
-    border-radius: 40px;
-}*/
-
+.center h1{
+    text-align: center;
+    padding: 5px 0 20px 0;
+    border-bottom: 1px solid silver;
+  }
 .center h2 {
     text-align: center;
 }
-
 .center h2 a {
     color: black;
     text-decoration: none;
 }
- 
 .text_field {
     display: flex;
     align-items: flex-start;
@@ -55,34 +42,22 @@ main {
     width: 100%;
     margin: 1% 0;
 }
-
 .text_field div {
     width: 40%;
     margin: 1% 5%;
 }
-
-
 .text_field label {
     font-size: 15px;
 }
-
 .sup {
     text-align: center;
 }
-
-.center h1{
-    text-align: center;
-    padding: 5px 0 20px 0;
-    border-bottom: 1px solid silver;
-  }
-
-
 .text_field input{
     width: 100%;
     border-radius: 12px;
     height: 43px;
+    padding-left: 5%;
 }
-
 .submit {
     font-size: 19px;
     border-radius: 30px;
@@ -94,15 +69,12 @@ main {
     background-image: linear-gradient(to right, #FB7B30 0%,#A831A5 100%);
 }
 
-
-
-
-
-
-
 @media (max-width: 700px) {
     .text_field{
         display: block;
+    }
+    .text_field input {
+        padding-left: 5%;
     }
     .text_field div {
         width: 100%;
@@ -118,7 +90,6 @@ main {
     }
 }
 
-
 @media (max-width: 390px) {
     
     main {
@@ -126,72 +97,7 @@ main {
     }
     
 }
-/*
-@media (max-width: 991.98px) {
-    .text_field {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .submit {
-        font-size: 18px;
-        margin-top: 12px;
-        width: 200px;
-    }
-    .text_field input {
-        width: 100%;
-        border-radius: 12px;
-        height: 43px;
-    }
-    .text_field {
-        align-items: flex-start;
-    }
-    form {
-        padding: 0 10%;
-    }
-
-    .text_field input {
-        margin-top: 5px;
-    }
-    .center{
-        height: 80%;
-    }
 
 
-
-
-
-
-}
-@media (max-width: 767.98px) { 
-    .text_field {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .submit {
-        font-size: 18px;
-        margin-top: 12px;
-        width: 200px;
-    }
-    .text_field input {
-        width: 100%;
-        border-radius: 12px;
-        height: 43px;
-    }
-    .text_field {
-        align-items: flex-start;
-    }
-    form {
-        padding: 0 10%;
-    }
-
-    .text_field input {
-        margin-top: 5px;
-    }
-    .center{
-        height: 80%;
-    }
- }
 
  
